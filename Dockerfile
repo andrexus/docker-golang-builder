@@ -1,4 +1,4 @@
-FROM golang:1.11-stretch
+FROM golang:1.12-stretch
 
 ARG GOLANGCI_LINT_VERSION=v1.15.0
 
