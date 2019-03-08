@@ -9,6 +9,7 @@ RUN go get -v \
   github.com/alvaroloes/enumer \
   github.com/mjibson/esc \
   github.com/mitchellh/gox \
+  github.com/tcnksm/ghr \
   github.com/mgechev/revive && \
   curl -sfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s $GOLANGCI_LINT_VERSION && \
   golangci-lint --version
