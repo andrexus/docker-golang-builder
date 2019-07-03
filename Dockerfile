@@ -1,12 +1,10 @@
-FROM golang:1.12-stretch
+FROM golang:1.12
 
-ARG GOLANGCI_LINT_VERSION=v1.15.0
+ARG GOLANGCI_LINT_VERSION=v1.17.1
 
 # Install build tools and linters
 RUN go get -v \
   github.com/go-task/task/cmd/task \
-  github.com/andrexus/git-info \
-  github.com/alvaroloes/enumer \
   github.com/mjibson/esc \
   github.com/mitchellh/gox \
   github.com/tcnksm/ghr \
