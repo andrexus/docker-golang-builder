@@ -1,6 +1,6 @@
 FROM golang:1.13
 
-ARG GOLANGCI_LINT_VERSION=v1.19.1
+ARG GOLANGCI_LINT_VERSION=v1.25.1
 
 # Install build tools and linters
 RUN go get -v \
