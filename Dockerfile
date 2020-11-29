@@ -13,5 +13,5 @@ RUN go get -v \
   golangci-lint --version
 
 # Install 3rd party packages
-RUN apt update -y && \
+RUN apt update && \
     apt install -y libvips-dev
