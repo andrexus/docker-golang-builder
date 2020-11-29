@@ -11,3 +11,7 @@ RUN go get -v \
   github.com/mgechev/revive && \
   curl -sfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s $GOLANGCI_LINT_VERSION && \
   golangci-lint --version
+
+# Install 3rd party packages
+RUN apt update -y && \
+    apt install -y libvips-dev
