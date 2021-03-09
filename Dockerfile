@@ -1,6 +1,6 @@
 FROM golang:1.16
 
-ARG GOLANGCI_LINT_VERSION=v1.37.1
+ARG GOLANGCI_LINT_VERSION=v1.38.0
 ARG TASKFILE_VERSION=v3.2.2
 
 # Install build tools and linters
